@@ -29,11 +29,13 @@ public class ConsoleEx {
 		// 파일을 다뤄야 한느데
 		// C:\mydir\myfile.txt
 		String dir = "C:\\mydir\\myfile.txt"; 
+		// // -> / : 역슬래시
+		System.out.println(dir);
 	}
 	
 	// 콘솔 입력
 	// Scanner 클래스를 이용하면 다양한 입력 소스로부터 데이터를 입력 받을 수 있다. 
-	public static void consoleInput();{
+	public static void consoleInput(){
 		// Tip 1. ctrl+shift+0-> 자동 import
 		// Tip 2. ctrl+space -> Code Assist
 		Scanner scanner = new Scanner(System.in);
