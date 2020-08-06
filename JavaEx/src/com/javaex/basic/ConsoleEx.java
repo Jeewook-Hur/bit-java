@@ -46,7 +46,8 @@ public class ConsoleEx {
 		int age = scanner.nextInt();
 		
 		System.out.println("이름은 "+name+",나이는"+age);
-		// 시스템 지
+		// 시스템 자원을 사용하는 기능을 이용한 후에는 반드시 닫아주자 : 중요
+		scanner.close();
 		
 	}
 }
